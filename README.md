@@ -1,14 +1,19 @@
 # 领养小怪兽 / Adopt Little Monsters
 
-`lyxgs` is a portable OpenClaw Skill package for a chat-driven collectible monster game. Users earn energy through meaningful conversations, spend energy to adopt monster cards, and manage up to three monster slots with upgrading, fusion, leaderboards, egg-hatching UX, and optional AI card image generation.
+`lyxgs` is a portable OpenClaw Skill package for a chat-driven collectible monster game, designed as an office-friendly entertainment pet system for OpenClaw and DingTalk/DingDing-style workplace chat scenarios. Users earn energy through meaningful conversations, spend energy to adopt monster cards, and manage up to three monster slots with upgrading, fusion, leaderboards, egg-hatching UX, and optional AI card image generation.
 
-`lyxgs` 是一个可搬运的 OpenClaw Skill 包，用于实现「领养小怪兽」聊天养成玩法。用户通过认真聊天积累能量，消耗能量领养小怪兽，每人最多 3 个卡槽，并支持升级、融合、排行榜、先出蛋再孵化卡牌，以及可选的 AI 高清卡牌生成。
+`lyxgs` 是一个可搬运的 OpenClaw Skill 包，用于实现「领养小怪兽」聊天养成玩法，也适合作为钉钉 / DingTalk / DingDing 办公聊天场景里的轻量办公娱乐宠物系统。用户通过认真聊天、协作、复盘和规划积累能量，消耗能量领养小怪兽，每人最多 3 个卡槽，并支持升级、融合、排行榜、先出蛋再孵化卡牌，以及可选的 AI 高清卡牌生成。
+
+It can be used as a playful workplace companion: teams can turn daily chats, planning, reviews, and collaborative work into a lightweight pet-collection loop without exposing secrets or modifying master data.
+
+它可以作为办公场景中的“娱乐宠物同事”：把日常聊天、方案讨论、复盘学习、团队协作变成轻量的宠物收集循环，在不暴露密钥、不修改主数据的前提下，为工作群增加一点游戏化陪伴感。
 
 ---
 
 ## Features / 功能
 
 - SQLite-based storage, no JSON as primary data structure.
+- Designed for OpenClaw plus DingTalk/DingDing-style office chat and team entertainment scenarios.
 - 100 predefined monster species with unique names, appearances, skills, elements, rarities, and prompts.
 - 100 packaged card images plus egg and style reference assets.
 - 7 rarity tiers: N, R, SR, SSR, UR, LR, MR.
